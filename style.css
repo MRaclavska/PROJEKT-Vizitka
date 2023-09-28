@@ -27,8 +27,12 @@ body {
 img {
     height: 150px;
     border-radius: 50%;
-    border: 3px white;
-    
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    box-shadow: 5px 5px 5px gray;
+    right: -70px;
+    top: -70px;
 }
 
 .boxunit {
@@ -36,10 +40,12 @@ img {
     box-sizing: border-box;
     padding: 30px;
     width: 550px;
+    height: auto;
     box-shadow:5px 5px 5px gray;
     border-radius: 10px;
-    position: fixed;
+    position: relative;
     top: 150px;
+    left:30%;
 }
 
 .boxunit a {
